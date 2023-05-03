@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+.login-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+  }
+  
+  .login-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 40%;
+	height:50%;
+  }
+  
+  h1 {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	margin-bottom: 10px;
+  }
+  
+  input {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+  }
+  
+  button {
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #0069d9;
+  }
+
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+
+  .search-list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .search-input {
+	margin: 20px;
+	padding: 10px;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 300px;
+  }
+  
+  .item-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .item {
+	padding: 10px;
+	font-size: 1.2rem;
+	border-bottom: 1px solid #ccc;
+	width: 300px;
+	text-align: center;
+  }
+  
+  .item:last-child {
+	border-bottom: none;
+  }
+
+  .table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  .header {
+	background-color: #f2f2f2;
+	display: flex;
+	font-weight: bold;
+  }
+  
+  .row {
+	border-bottom: 1px solid #ddd;
+	display: flex;
+  }
+  
+  .cell {
+	flex: 1;
+	padding: 12px;
+	text-align: left;
+  }
+
+  .cell-button {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+  }
+
+  .no-button {
+	visibility: hidden;
+  }
+
+
